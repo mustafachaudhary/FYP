@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+*.local
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+*.tmp
+.cache/
+
+# Local databases (regenerated via seed scripts)
+*.db
+*.sqlite3
+
+# Old duplicate data folders
+DS_F25/
+DS_F25(old)/
+
+# Root-level legacy docs, reports, and diagrams
+/Project Report.html
+/FYPReport.docx
+/Report.md
+/QUICK_REFERENCE.md
+/SDD Template.docx
+/SDD.docx
+/SRS.docx
+/SDD_with_Diagrams.docx
+/SDD_COMPLETION_SUMMARY.md
+/Workflow_Diagrams.puml
+/Admin_Dashboard_Wireframe.png
+/Component_Architecture.png
+/ER_Diagram.png
+/Instructor_Dashboard_Wireframe.png
+/System_Admin_Dashboard_Wireframe.png
+/Live Calibration Workbench.png
+/Metrics Comparison.png
+/Patterns Summary.png
+/Silhouette Score.png
+/UI.png
